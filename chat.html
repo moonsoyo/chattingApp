@@ -13,54 +13,72 @@
     <link rel="stylesheet" href="css/styles.css" />
     <title>Chat | soSmallChatApp</title>
   </head>
-  <body>
-    <div class="status-bar">
-      <div class="status-bar__column">
-        <span class="status-bar__clock">11:15</span>
+  <body class="chats-body">
+    <div class="header-wrapper">
+      <div class="status-bar">
+        <div class="status-bar__column">
+          <span class="status-bar__clock">11:15</span>
+        </div>
+        <div class="status-bar__column">
+          <i class="far fa-clock"></i>
+          <i class="fas fa-volume-up"></i>
+          <i class="fas fa-wifi"></i>
+          <span class="status-bar__battery-level">75%</span>
+          <i class="fas fa-battery-three-quarters"></i>
+        </div>
       </div>
-      <div class="status-bar__column">
-        <i class="far fa-clock"></i>
-        <i class="fas fa-volume-up"></i>
-        <i class="fas fa-wifi"></i>
-        <span class="status-bar__battery-level">75%</span>
-        <i class="fas fa-battery-three-quarters"></i>
-      </div>
+      <header class="header">
+        <div class="header__header-column">
+          <a href="index.html" class="header__back-btn">
+            <i class="fas fa-arrow-left"></i>
+          </a>
+          <h1 class="header__title">My Lovely Family Chat Room</h1>
+        </div>
+        <div class="header__header-column">
+          <span class="header__icon">
+            <i class="fas fa-search"></i>
+          </span>
+          <span class="header__icon">
+            <i class="fas fa-bars"></i>
+          </span>
+        </div>
+      </header>
     </div>
-    <header class="header">
-      <div class="header__header-column">
-        <a href="index.html" class="header__back-btn">
-          <i class="fas fa-arrow-left"></i>
-        </a>
-        <h1 class="header__title">My Lovely Family Chat Room</h1>
-      </div>
-      <div class="header__header-column">
-        <span class="header__icon">
-          <i class="fas fa-search"></i>
-        </span>
-        <span class="header__icon">
-          <i class="fas fa-bars"></i>
-        </span>
-      </div>
-    </header>
-    <main class="chat">
+    <main class="chat-screen">
       <ul class="chat__messages">
-        <span class="chat__timestamp">Friday, May 18, 2019</span>
+        <span class="chat__timestamp">Friday, November 15, 2019</span>
         <li class="incoming-message message">
           <img src="images/avatar.jpg" class="m-avatar message-avatar" />
           <div class="messae__content">
             <span class="message__author">Mommy</span>
-            <div class="message__bubble">
+            <span class="message__bubble">
               Are you having a fun day?!?!
-            </div>
+            </span>
           </div>
-          <span class="message__timestamp"></span>
         </li>
-        <li class="incoming-message message">
+        <li class="sent-message message">
           <span class="message__timestamp"></span>
           <div class="messae__content">
-            <div class="message__bubble">
-              Yes I am!!! Congratulations to bro :)
-            </div>
+            <span class="message__bubble">
+              Going to Bobst!! My midterm is tomorrow 😱
+            </span>
+          </div>
+        </li>
+        <li class="incoming-message message">
+          <img src="images/avatar.jpg" class="m-avatar message-avatar" />
+          <div class="messae__content">
+            <span class="message__author">Mommy</span>
+            <span class="message__bubble">
+              Oh I see. You will do well! Good luck.
+            </span>
+          </div>
+        </li>
+        <li class="sent-message message">
+          <span class="message__timestamp"></span>
+          <div class="messae__content">
+            <span class="message__bubble">
+              Thanks mom! Oh also today is Dar's bday!!
+            </span>
           </div>
         </li>
       </ul>
