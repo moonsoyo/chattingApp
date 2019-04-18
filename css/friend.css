@@ -46,8 +46,8 @@
 }
 
 .friend__content .friend__status,
-.friend .chat__timestamp {
-  font-size: 10px;
+.chats .chat__timestamp {
+  font-size: 13px;
 }
 
 .friend .friend__now-listening {
