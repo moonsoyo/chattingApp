@@ -10,7 +10,7 @@
   padding: 0;
   padding-top: 70px;
   background-image: url("../images/background.jpg");
-  min-height: 100vh;
+  min-height: 1000px;
   border-radius: 5px;
 }
 
@@ -51,7 +51,7 @@
   padding: 5px 10px;
   width: 100%;
   border: none;
-  font-size: 14px;
+  font-size: 12px;
   font-family: "Pompiere", cursive;
   background-color: #e8f5ff;
   border-radius: 10px;
@@ -72,7 +72,7 @@
 
 .chat__messages .chat__timestamp {
   background-color: #96a5ff;
-  font-size: 10px;
+  font-size: 14px;
   padding: 10px 10px;
   border-radius: 5px;
   margin-top: 40px;
