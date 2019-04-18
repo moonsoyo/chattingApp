@@ -41,6 +41,7 @@
 
 .chat__write i {
   font-size: 18px;
+  margin-left: 2px;
 }
 
 .chat__write-column:nth-child(2) {
