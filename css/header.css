@@ -2,11 +2,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .header .header__title {
-  font-size: 26px;
+  font-size: 22px;
   font-family: "Unkempt", cursive;
 }
 

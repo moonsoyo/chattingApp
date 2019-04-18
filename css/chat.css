@@ -8,7 +8,7 @@
 
 .chats-body {
   padding: 0;
-  padding-top: 80px;
+  padding-top: 70px;
   background-image: url("../images/background.jpg");
   min-height: 100vh;
   border-radius: 5px;
@@ -40,7 +40,7 @@
 }
 
 .chat__write i {
-  font-size: 22px;
+  font-size: 18px;
 }
 
 .chat__write-column:nth-child(2) {
@@ -51,7 +51,7 @@
   padding: 5px 10px;
   width: 100%;
   border: none;
-  font-size: 18px;
+  font-size: 14px;
   font-family: "Pompiere", cursive;
   background-color: #e8f5ff;
   border-radius: 10px;
