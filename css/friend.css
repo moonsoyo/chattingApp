@@ -42,12 +42,12 @@
 }
 
 .friend__content .friend__bottom-text {
-  font-size: 16px;
+  font-size: 13px;
 }
 
 .friend__content .friend__status,
 .chats .chat__timestamp {
-  font-size: 13px;
+  font-size: 16px;
 }
 
 .friend .friend__now-listening {
@@ -61,7 +61,7 @@
 }
 
 .friend__now-listening i {
-  font-size: 11px;
+  font-size: 10px;
 }
 
 .friend__add-btn {
